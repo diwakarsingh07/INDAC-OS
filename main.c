@@ -23,7 +23,7 @@
 #include "gui.h"
 #include "bmp.h"
 #include "lockscreen.h"
-#include "wm.h"
+#include "wm.h" 
 
 // Globals so the ISR can draw to the screen
 volatile uint32_t *global_fb_ptr = NULL;
