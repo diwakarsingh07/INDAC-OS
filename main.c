@@ -63,6 +63,7 @@ static volatile struct limine_hhdm_request hhdm_request = {
     .revision = 0
 };
 
+//from here also double check the code
 // Kernel address request: gives us the physical and virtual base of the kernel
 __attribute__((used, section(".limine_requests")))
 static volatile struct limine_executable_address_request kernel_address_request = {
